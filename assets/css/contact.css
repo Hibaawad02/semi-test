@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  overflow: visible !important;
+}
+:root {
+  --mainColor: #01b5b2;
+  --textColor: #161326;
+  --mainFont: "Roboto", sans-serif;
+  --Gray: #66656c;
+  --BaseBlack: #161326;
+  --Base-white:#FFF;
+}
+.contact-titel h2{
+    color: var(--mainColor);
+    font-family: var(--mainFont);
+    font-weight: 500;
+    font-size: 28px;
+}
+.contact-titel p{
+    color: var(--BaseBlack);
+    font-family: var(--mainFont);
+    font-weight: 500;
+    font-size: 24px;
+
+}
+.contact-form .input-group{
+    color:var(--Gray);
+    font-family: var(--mainFont);
+   
+}
+.send-btn{
+
+border-radius: 16px;
+    background: var(--mainColor);
+    color: var(--Base-white);
+    font-family: var(--mainFont);
+    font-weight: 500;
+    font-size: 18px;
+    width: 254px;
+padding: 10px 20px;
+transition: all .3s;
+}
+.send-btn:hover{
+border:1px solid white;
+background: var(--mainColor);
+}
+
+.inf{
+    font-family: var(--mainFont);
+    color: var(--BaseBlack);
+}

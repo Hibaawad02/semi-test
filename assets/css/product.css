@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  overflow: visible !important;
+}
+:root {
+  --mainColor: #01b5b2;
+  --textColor: #161326;
+  --mainFont: "Roboto", sans-serif;
+  --Gray: #66656c;
+  --BaseBlack: #161326;
+  --Base-white:#FFF;
+  --lightGray:#CFCFCF;
+}
+.main-pic{
+    border-radius: 16px;
+    height: 500px;
+    border: 1px solid var(--lightGray);
+    background-image: url(../img/products/main-product.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sub-1,.sub-2{
+    border-radius: 20px;
+   border: 1px solid var(--lightGray);
+   display: flex;
+   height: 160px;
+padding: 0px 80px 0px 81px;
+justify-content: center;
+align-items: center;
+width: 49%;
+}
+.sub-1{
+    background-image: url(../img/products/sub-pic-1\ \(1\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.sub-2{
+    background-image: url(../img/products/sub-pic-2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.product-info h2{
+    color: var(--BaseBlack);
+    font-family: var(--mainFont);
+    font-size: 24px;
+    font-weight: 600;
+}
+.availabilty {
+    font-family: var(--mainFont);
+}
+.in-stock p{
+    color: var(--mainColor);
+} 
+.hurry-para{
+    color: var(--Gray);
+}
+.colors input{
+    width: 27px;
+height: 27px; 
+border-radius: 50%;
+}
+.size{
+    display: flex;
+width: 60px;
+height: 30px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 16px;
+font-family: var(--mainFont);
+background: #EEE;
+}
+.size:hover{
+    border: 1px solid var(--Gray);
+font-weight: 500;
+}
+
+.amount button{
+    border: 1px solid var(--Gray);
+}
+.amount input{
+    border: 1px solid var(--Gray);
+    border-radius: 0;
+}
+.amount button:hover{
+    border: 1px solid var(--Gray);
+    background: #EEE;
+}
+
+.add-to-cart{
+    border-radius: 16px;
+    width: 180px;
+    height: 55px;
+   background: var(--mainColor);
+   color: var(--Base-white);
+   transition: all .3s;
+}
+.add-to-cart:hover{
+    border: 1px solid #000;
+    background: var(--mainColor);
+    color: var(--Base-white);
+   
+}
+.favorate{
+    border-radius: 500px;
+background: #EEE;
+width: 61px;
+height: 60px;
+
+}
+.favorate svg:hover{
+    fill: var(--mainColor);
+}
+.related-product h3{
+    color:var(--BaseBlack);
+   font-family: var(--mainFont);
+   font-size: 26px;
+   font-weight: 700;
+   margin-left: auto;
+    margin-right: auto;
+   line-height: 150%; /* 48px */
+   }

@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  overflow: visible !important;
+}
+:root {
+  --mainColor: #01b5b2;
+  --textColor: #161326;
+  --mainFont: "Roboto", sans-serif;
+  --Gray: #66656c;
+  --BaseBlack: #161326;
+  --Base-white:#FFF;
+}
+.head-img{
+    background-image: url(../img/public/header-3.png);
+    height: 480px;
+     background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.about a{
+    font-family: var(--mainFont);
+    font-size: 30px;
+    color:var(--BaseBlack);
+    font-weight: 700;
+    
+}
+.about p{
+    font-family: var(--mainFont);
+    font-size: 20px;
+    color: var(--BaseBlack);
+    font-weight: 400;
+line-height: 150%;
+}

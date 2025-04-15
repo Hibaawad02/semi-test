@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  overflow: visible !important;
+}
+:root {
+  --mainColor: #01b5b2;
+  --textColor: #161326;
+  --mainFont: "Roboto", sans-serif;
+  --Gray: #66656c;
+  --BaseBlack: #161326;
+  --Base-white:#FFF;
+  --lightGray:#CFCFCF;
+}
+
+.sub-header-categories{
+    background-color: var(--mainColor);
+    height: 55px;
+    padding: 0px 30.794px;
+}
+.categories-dropdown{
+    flex-grow:1;
+}
+.drop{
+    border-right: 0.855px solid var(--Base-white);
+    padding: 8.554px 20.53px;   
+}
+.categories-dropdown:last-child .drop{
+    border-right: none;
+}
+.categ-drop{
+    font-size: 13px;
+    font-family: var(--mainFont);
+    color: var(--Base-white);
+    font-weight: 400;
+}
+
+.cartegories-scroll{
+border-radius: 5.132px;
+border: 0.855px solid var(--lightGray);
+background: var(--lightGray);
+padding: 15px;
+}
+
+.coloures{
+ border-radius: 5.132px;
+border: 0.855px solid #EEF0F4;
+background: var(--Base-white);
+
+}
+.filter-img{
+    background-image: url(../img/public/banner_left_col.png);
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*products start*/
+
+.products .product-row{
+    gap:12px;
+
+}
+.products .product-card {
+display: flex;
+flex-direction: column;
+width: 180px;
+padding: 13px 25px;
+justify-content: center;
+align-items: center;
+border-radius: 16px;
+background: var(--Base-white);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+cursor: pointer;
+}
+.products .product-para{
+    color:var(--mainColor);
+    font-family: var(--mainFont);
+    font-weight: 700;
+    font-size: 14px;
+}
+.products .product-span{
+    color: var(--BaseBlack);
+    font-family: var(--mainFont);
+    font-weight: 500;
+    font-size: 10px;
+    margin-bottom: 8px;
+    padding-left: 3px;
+}
+.products .product-img-price{
+ margin-top: 60px;
+width: 180px;
+height: 210px;
+justify-content: space-between;
+}
+.products .price{
+    width: 180px;
+}
+.products .price-para{
+    color: var(--mainColor);
+    font-family: var(--mainFont);
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 150%;
+}
+/*products end*/
